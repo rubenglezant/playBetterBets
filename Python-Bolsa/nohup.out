@@ -1,0 +1,420 @@
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "getDataYahoo.py", line 1, in <module>
+    import pandas.io.data as web
+ImportError: No module named pandas.io.data
+Traceback (most recent call last):
+  File "trataData.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
+Traceback (most recent call last):
+  File "trataData2.py", line 1, in <module>
+    import pandas as pd
+ImportError: No module named pandas
