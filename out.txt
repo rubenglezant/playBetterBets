@@ -1,0 +1,76 @@
+== Info:   Trying 104.25.244.21...
+== Info: Connected to betterbets.io (104.25.244.21) port 443 (#0)
+== Info: found 187 certificates in /etc/ssl/certs/ca-certificates.crt
+== Info: found 758 certificates in /etc/ssl/certs
+== Info: ALPN, offering http/1.1
+== Info: SSL connection using TLS1.2 / ECDHE_ECDSA_AES_128_GCM_SHA256
+== Info: 	 server certificate verification OK
+== Info: 	 server certificate status verification SKIPPED
+== Info: 	 common name: ssl277032.cloudflaressl.com (matched)
+== Info: 	 server certificate expiration date OK
+== Info: 	 server certificate activation date OK
+== Info: 	 certificate public key: EC
+== Info: 	 certificate version: #3
+== Info: 	 subject: OU=Domain Control Validated,OU=PositiveSSL Multi-Domain,CN=ssl277032.cloudflaressl.com
+== Info: 	 start date: Tue, 08 Dec 2015 00:00:00 GMT
+== Info: 	 expire date: Sun, 02 Oct 2016 23:59:59 GMT
+== Info: 	 issuer: C=GB,ST=Greater Manchester,L=Salford,O=COMODO CA Limited,CN=COMODO ECC Domain Validation Secure Server CA 2
+== Info: 	 compression: NULL
+== Info: ALPN, server accepted to use http/1.1
+=> Send header, 160 bytes (0xa0)
+0000: POST /api/betDice/ HTTP/1.1
+001d: Host: betterbets.io
+0032: User-Agent: curl/7.43.0
+004b: Accept: */*
+0058: Content-Length: 117
+006d: Content-Type: application/x-www-form-urlencoded
+009e: 
+=> Send data, 117 bytes (0x75)
+0000: accessToken=4fd9ef572c6c32bf4d4290da3a29c7e1c2cbb94811ceea932640
+0040: f37c8977868c&wager=0.00000001&chance=49.5&direction=0
+== Info: upload completely sent off: 117 out of 117 bytes
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 26 bytes (0x1a)
+0000: Server: cloudflare-nginx
+<= Recv header, 37 bytes (0x25)
+0000: Date: Tue, 29 Dec 2015 16:53:40 GMT
+<= Recv header, 32 bytes (0x20)
+0000: Content-Type: application/json
+<= Recv header, 21 bytes (0x15)
+0000: Content-Length: 537
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 144 bytes (0x90)
+0000: Set-Cookie: __cfduid=d217ef80cb88502c3508e838fdb42ba221451408018
+0040: ; expires=Wed, 28-Dec-16 16:53:38 GMT; path=/; domain=.betterbet
+0080: s.io; HttpOnly
+<= Recv header, 23 bytes (0x17)
+0000: X-Frame-Options: DENY
+<= Recv header, 241 bytes (0xf1)
+0000: Set-Cookie: BetterBetsSession=k7cocjck4i2bn2r1g5i2sag7hjrqmh3n3e
+0040: i8r7r7b1l720l9li99gljbk1v6hpco9m30r8hna66fvgp413sp9fmmout41bhd2c
+0080: eu3i0; expires=Wed, 28-Dec-2016 16:53:38 GMT; Max-Age=31536000; 
+00c0: path=/; domain=.betterbets.io; secure; HttpOnly
+<= Recv header, 40 bytes (0x28)
+0000: Expires: Thu, 19 Nov 1981 08:52:00 GMT
+<= Recv header, 79 bytes (0x4f)
+0000: Cache-Control: no-store, no-cache, must-revalidate, post-check=0
+0040: , pre-check=0
+<= Recv header, 18 bytes (0x12)
+0000: Pragma: no-cache
+<= Recv header, 30 bytes (0x1e)
+0000: CF-RAY: 25c705b3e0782f59-MAD
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 537 bytes (0x219)
+0000: {"error":"0","win":"1","balanceOrig":"0.00000208","balance":"0.0
+0040: 0000209","profit":"0.00000001","lfNotified":"0","lfActive":"0","
+0080: lfMaxBetAmt":"0","lfMaturityPercent":"8","lfActivePercent":"0","
+00c0: version":"1.43","maintenance":"0","happyHour":"0","betId":"11741
+0100: 7526","betIdMP":"2705155","direction":"0","wager":"1.0E-8","targ
+0140: et":"49.5","result":"29.21","clientSeed":"670843611","serverSeed
+0180: ":"51648a42181655b3a2d65acfb4bb7da917f2ae1965ea7809c22f03bb8357d
+01c0: 8b7","nextServerSeed":"a3d6f9a966c2becbc515f426b669f2c8e79b1758e
+0200: b32ae5857a0c726e5272b1a"}
+== Info: Connection #0 to host betterbets.io left intact
