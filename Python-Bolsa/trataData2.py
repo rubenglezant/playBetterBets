@@ -10,6 +10,9 @@ def calculaInd1(indice):
 
     A = np.loadtxt(indice+'-matriz_porcentajes.dat')
 
+
+
+
     # Obtenemos el primer anno 2006
     numeroFilaAnno = 260
     # Dias de Desplazamiento sobre el annoo
