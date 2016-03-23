@@ -10,9 +10,6 @@ def calculaInd1(indice):
 
     A = np.loadtxt(indice+'-matriz_porcentajes.dat')
 
-
-
-
     # Obtenemos el primer anno 2006
     numeroFilaAnno = 260
     # Dias de Desplazamiento sobre el annoo
@@ -30,7 +27,7 @@ def calculaInd1(indice):
                 gan = gan + 1
 
         if (A.max()>0):
-            print indice,A.max(), A.min(), A.mean(), (gan/j);
+            print (indice,A.max(), A.min(), A.mean(), (gan/j));
     except:
         pass
 
@@ -61,7 +58,7 @@ def calculaInd2(indice):
                 caida = 0
             valorAnt = valor
 
-    print indice, caidaMax
+    print (indice, caidaMax)
 
     return
 
@@ -91,7 +88,7 @@ def calculaInd3(indice):
                 ListaValores.append((gan/j))
             porcentajeGanar = porcentajeGanar + 0.005
 
-        print indice, ListaValores
+        print (indice, ListaValores)
     except:
         pass
 

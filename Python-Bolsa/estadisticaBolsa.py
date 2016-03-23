@@ -13,6 +13,8 @@ with open("indices.txt") as f:
 
         r = f[['Open']]
 
+
+
         # Creamos la matriz de porcentajes
         # Tanto las filas como las columnas son los dias de cotizacion
         filasColumnas = r.index.max() + 1
