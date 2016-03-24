@@ -1,87 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88f6142f-4e4a-4a42-a5fd-952bb5066c04" name="Default" comment="ssss">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/Analisis BOLSA.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/ABE.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/ABE.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/ACS.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/ACS.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/ACX.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/ACX.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/AENA.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/AENA.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/AMS.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/AMS.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/ANA.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/ANA.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/BBVA.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/BBVA.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/BKIA.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/BKIA.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/BKT.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/BKT.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/CABK.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/CABK.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/DIA.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/DIA.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/ELE.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/ELE.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/ENG.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/ENG.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/FCC.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/FCC.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/FER.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/FER.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/GAM.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/GAM.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/GAS.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/GAS.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/GRF.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/GRF.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/IAG.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/IAG.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/IBE.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/IBE.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/IDR.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/IDR.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/ITX.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/ITX.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/MAP.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/MAP.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/MRL.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/MRL.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/MTS.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/MTS.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/OHL.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/OHL.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/POP.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/POP.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/REE.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/REE.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/REP.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/REP.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/SAB.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/SAB.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/SAN.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/SAN.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/SCYR.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/SCYR.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/TEF.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/TEF.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/TL5.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/TL5.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/TRE.MC-matriz_porcentajes.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/TRE.MC.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/indicesOriginal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/trataData3.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/temp.iml" afterPath="$PROJECT_DIR$/.idea/temp.iml" />
+    <list default="true" id="88f6142f-4e4a-4a42-a5fd-952bb5066c04" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python-Bolsa/test/testInversion.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python-Bolsa/Analisis BOLSA.xlsx" afterPath="$PROJECT_DIR$/Python-Bolsa/Analisis BOLSA.xlsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python-Bolsa/estadisticaBolsa.py" afterPath="$PROJECT_DIR$/Python-Bolsa/estadisticaBolsa.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python-Bolsa/AENA.MC-matriz_porcentajes.dat" afterPath="$PROJECT_DIR$/Python-Bolsa/AENA.MC-matriz_porcentajes.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python-Bolsa/AENA.MC.csv" afterPath="$PROJECT_DIR$/Python-Bolsa/AENA.MC.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python-Bolsa/BKT.MC-matriz_porcentajes.dat" afterPath="$PROJECT_DIR$/Python-Bolsa/BKT.MC-matriz_porcentajes.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python-Bolsa/BKT.MC.csv" afterPath="$PROJECT_DIR$/Python-Bolsa/BKT.MC.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python-Bolsa/GAM.MC-matriz_porcentajes.dat" afterPath="$PROJECT_DIR$/Python-Bolsa/GAM.MC-matriz_porcentajes.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python-Bolsa/GAM.MC.csv" afterPath="$PROJECT_DIR$/Python-Bolsa/GAM.MC.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python-Bolsa/getDataYahoo.py" afterPath="$PROJECT_DIR$/Python-Bolsa/getDataYahoo.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python-Bolsa/indices.txt" afterPath="$PROJECT_DIR$/Python-Bolsa/indices.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python-Bolsa/trataData2.py" afterPath="$PROJECT_DIR$/Python-Bolsa/trataData2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python-Bolsa/trataData3.py" afterPath="$PROJECT_DIR$/Python-Bolsa/trataData3.py" />
     </list>
     <ignored path="playBetterBets.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,7 +37,7 @@
       <file leaf-file-name="trataData2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python-Bolsa/trataData2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="68">
               <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
@@ -117,9 +49,21 @@
       <file leaf-file-name="trataData3.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python-Bolsa/trataData3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="146" column="39" selection-start-line="146" selection-start-column="39" selection-end-line="146" selection-end-column="39" />
+            <state relative-caret-position="325">
+              <caret line="147" column="43" selection-start-line="147" selection-start-column="43" selection-end-line="147" selection-end-column="43" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testInversion.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python-Bolsa/test/testInversion.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,7 +81,7 @@
       <file leaf-file-name="TL5.MC.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python-Bolsa/TL5.MC.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
+            <state relative-caret-position="4454">
               <caret line="262" column="0" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
               <folding />
             </state>
@@ -159,8 +103,8 @@
       <file leaf-file-name="estadisticaBolsa.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python-Bolsa/estadisticaBolsa.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -171,8 +115,8 @@
       <file leaf-file-name="indices.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python-Bolsa/indices.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="35" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -191,7 +135,7 @@
       <file leaf-file-name="trataData.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python-Bolsa/trataData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="170">
               <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -202,6 +146,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -211,8 +162,9 @@
       <list>
         <option value="$PROJECT_DIR$/Python-Bolsa/estadisticaBolsa.py" />
         <option value="$PROJECT_DIR$/Python-Bolsa/trataData2.py" />
-        <option value="$PROJECT_DIR$/Python-Bolsa/getDataYahoo.py" />
+        <option value="$PROJECT_DIR$/Python-Bolsa/test/testInversion.py" />
         <option value="$PROJECT_DIR$/Python-Bolsa/indices.txt" />
+        <option value="$PROJECT_DIR$/Python-Bolsa/getDataYahoo.py" />
         <option value="$PROJECT_DIR$/Python-Bolsa/trataData3.py" />
       </list>
     </option>
@@ -301,6 +253,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playBetterBets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playBetterBets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python-Bolsa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -309,21 +279,21 @@
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="56" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="178" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="56" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="178" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="56" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="179" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="517" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="853" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="56" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="179" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="55" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="177" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="56" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="179" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="518" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="853" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
@@ -383,23 +353,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="trataData" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python-Bolsa" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="temp" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python-Bolsa/trataData.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="trataData3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -413,6 +366,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="temp" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python-Bolsa/trataData3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testInversion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python-Bolsa/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="temp" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python-Bolsa/test/testInversion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -555,16 +525,16 @@
       <item index="0" class="java.lang.String" itemvalue="Python.trataData2" />
       <item index="1" class="java.lang.String" itemvalue="Python.getDataYahoo" />
       <item index="2" class="java.lang.String" itemvalue="Python.estadisticaBolsa" />
-      <item index="3" class="java.lang.String" itemvalue="Python.trataData" />
-      <item index="4" class="java.lang.String" itemvalue="Python.trataData3" />
+      <item index="3" class="java.lang.String" itemvalue="Python.trataData3" />
+      <item index="4" class="java.lang.String" itemvalue="Python.testInversion" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.trataData3" />
         <item index="1" class="java.lang.String" itemvalue="Python.estadisticaBolsa" />
         <item index="2" class="java.lang.String" itemvalue="Python.getDataYahoo" />
-        <item index="3" class="java.lang.String" itemvalue="Python.trataData2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.trataData" />
+        <item index="3" class="java.lang.String" itemvalue="Python.testInversion" />
+        <item index="4" class="java.lang.String" itemvalue="Python.trataData2" />
       </list>
     </recent_temporary>
   </component>
@@ -589,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1458773839097</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Subido desde el Hogar&#10;">
+      <created>1458784409202</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1458784409202</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -598,16 +575,16 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2538787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.49444443" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.49722221" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32839838" sideWeight="0.49444443" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.49722221" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3252688" sideWeight="0.49444443" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39919356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -629,26 +606,112 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ssss" />
-    <option name="LAST_COMMIT_MESSAGE" value="ssss" />
+    <MESSAGE value="Subido desde el Hogar&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Subido desde el Hogar&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Python-Bolsa/test/testInversion.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="A[j][j+1]" />
+        <watch expression="r.index.max()" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Python-Bolsa/trataData2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python-Bolsa/trataData3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/site-packages/numpy/core/_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python-Bolsa/TL5.MC.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4454">
+          <caret line="262" column="0" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python-Bolsa/getDataYahoo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python-Bolsa/estadisticaBolsa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python-Bolsa/indices.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python-Bolsa/indicesOriginal.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python-Bolsa/trataData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/play.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,9 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,13 +736,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python-Bolsa/TL5.MC.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
+        <state relative-caret-position="4454">
           <caret line="262" column="0" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
           <folding />
         </state>
@@ -690,7 +749,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python-Bolsa/trataData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="170">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -700,7 +759,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python-Bolsa/trataData2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="68">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
@@ -716,31 +775,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python-Bolsa/getDataYahoo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python-Bolsa/TL5.MC-matriz_porcentajes.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python-Bolsa/estadisticaBolsa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,16 +792,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python-Bolsa/indices.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="35" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python-Bolsa/test/testInversion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python-Bolsa/getDataYahoo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python-Bolsa/estadisticaBolsa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python-Bolsa/trataData3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="146" column="39" selection-start-line="146" selection-start-column="39" selection-end-line="146" selection-end-column="39" />
+        <state relative-caret-position="325">
+          <caret line="147" column="43" selection-start-line="147" selection-start-column="43" selection-end-line="147" selection-end-column="43" />
           <folding />
         </state>
       </provider>

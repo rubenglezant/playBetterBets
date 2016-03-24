@@ -144,8 +144,8 @@ with open("indices.txt") as f:
     for line in f:
         indice = line.split()[0]
         for i in range(0,1):
-            calculaInd3(indice,100,0.077-0.015*i)
-            #calculaInd1(indice, 100, 0.087)
+            #calculaInd3(indice,100,0.087-0.015*i)
+            calculaInd1(indice, 100, 0.087)
             #calculaInd1(indice, 100 + 10 * i, 0.01)
 
 
