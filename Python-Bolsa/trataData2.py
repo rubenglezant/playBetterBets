@@ -94,12 +94,37 @@ def calculaInd3(indice):
 
     return
 
+# Buscamos el mejor porcenjate de salida dentro de los posibles
+def calculaInd4(indice):
+    porcentajeGanar = 0.05
+
+    A = np.loadtxt(indice+'-matriz_porcentajes.dat')
+
+    try:
+        ListaValores = []
+        for bucle in range(0,20):
+            j = 0
+            gan = 0
+            for i in A:
+                j = j + 1
+                if (i.max()>porcentajeGanar):
+                    gan = gan + 1
+            if (A.max()>0):
+                ListaValores.append((gan/j))
+            porcentajeGanar = porcentajeGanar + 0.005
+
+        print (indice, ListaValores)
+    except:
+        pass
+
+    return
+
 # Realizamos el calculo para todos los indices
 with open("indices.txt") as f:
     for line in f:
         indice = line.split()[0]
         try:
-            calculaInd3(indice)
+            calculaInd4(indice)
         except:
             pass
 

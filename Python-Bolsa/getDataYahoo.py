@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import datetime
 import sys
 
-start = datetime.datetime(2006, 1, 1)
+start = datetime.datetime(2014, 1, 1)
 end = datetime.datetime(2016, 1, 1)
 
 with open("indices.txt") as f:
