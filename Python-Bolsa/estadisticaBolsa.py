@@ -11,7 +11,7 @@ with open("indices.txt") as f:
         print (indice)
         print (f[:2])
 
-        r = f[['Open']]
+        r = f[['Close']]
 
         # Creamos la matriz de porcentajes
         # Tanto las filas como las columnas son los dias de cotizacion
