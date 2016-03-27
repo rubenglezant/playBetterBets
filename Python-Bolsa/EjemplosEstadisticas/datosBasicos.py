@@ -1,12 +1,10 @@
-# Ejemplos de estadistica descriptiva con python
-
-import numpy as np # importando numpy
-import pandas as pd # importando pandas
+import numpy as np
+import pandas as pd
 
 np.random.seed(2131982) # para poder replicar el random
 datos = np.random.randn(5, 4) # datos normalmente distribuidos
 
-# media arítmetica
+# media aritmetica
 datos.mean() # Calcula la media aritmetica de
 np.mean(datos) # Mismo resultado desde la funcion de numpy
 datos.mean(axis=1) # media aritmetica de cada fila
@@ -14,7 +12,7 @@ datos.mean(axis=0) # media aritmetica de cada columna
 # mediana
 np.median(datos)
 np.median(datos, 0) # media aritmetica de cada columna
- # Desviación típica
+ # Desviacion tipica
 np.std(datos)
 np.std(datos, 0) # Desviación típica de cada columna
 # varianza
