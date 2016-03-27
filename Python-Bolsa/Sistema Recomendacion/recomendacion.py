@@ -36,7 +36,7 @@ user_preferences['Thriller'] = 2
 user_preferences['Western'] =1
 
 # 3. ESTABLECEMOS EL CALCULO DE LA PUNTUACION DE LAS PELICULAS - PRODUCTO DE VECTORES
-#En producción usaríamos np.dot, en vez de escribir esta función, la pongo como ejemplo.
+#En produccion usariamos np.dot, en vez de escribir esta funcion, la pongo como ejemplo.
 def dot_product(vector_1, vector_2):
     return sum([ i*j for i,j in zip(vector_1, vector_2)])
 
