@@ -1,6 +1,9 @@
 import numpy as np
 import pandas as pd
+from sklearn.ensemble import ExtraTreesRegressor
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.metrics import mean_squared_error
 
 
 # - - - Tomamos los datos
@@ -65,31 +68,33 @@ test_df = test_df.drop(['Name', 'Sex', 'Ticket', 'Cabin', 'PassengerId'], axis=1
 train_data = train_df.values
 test_data = test_df.values
 
+X_train = train_data[100::,1::]
+y_train = train_data[100::,0]
+X_test = train_data[0:100,1::]
+y_test = train_data[0:100,0]
 
 print ('Training...')
-estimator = RandomForestClassifier(n_estimators=100)
-estimator = estimator.fit( train_data[0::,1::], train_data[0::,0] )
+estimator = ExtraTreesRegressor(n_estimators=10, criterion='mse', max_depth=None, min_samples_split=1, min_samples_leaf=2, min_weight_fraction_leaf=0.49, max_features='auto', max_leaf_nodes=2, bootstrap=False, oob_score=False, n_jobs=1, random_state=None, verbose=0, warm_start=False)
+#estimator = ExtraTreesRegressor(n_estimators=2000)
+#estimator = RandomForestClassifier(n_estimators=1000)
+estimator = DecisionTreeRegressor(criterion="mse", max_leaf_nodes=None)
+estimator = estimator.fit( X_train , y_train )
 
 print ('Predicting...')
-output = estimator.predict(test_data).astype(int)
+y_pred = estimator.predict(X_test).astype(int)
 
 print ('Resultados...')
-score = estimator.score(train_data[500:600,1::], train_data[500:600,0] )
-print (" ---> " + str(score))
-score = estimator.score(train_data[100:200,1::], train_data[100:200,0] )
-print (" ---> " + str(score))
-score = estimator.score(train_data[700:800,1::], train_data[700:800,0] )
-print (" ---> " + str(score))
-score = estimator.score(train_data[0::,1::], train_data[0::,0] )
-print (" ---> " + str(score))
+score = mean_squared_error(y_test, y_pred)
+print (1-score)
 
-# - - - Escribimos los resultados
+# - - - Evaluamos datos finales y Escribimos los resultados
 # - - - - - - - - - - - - - - - - - - - -
 test_df = pd.read_csv("../input/test.csv", dtype={"Age": np.float64}, )
+y_pred = estimator.predict(test_data).astype(int)
 f = open('forest.csv', 'w')
 f.write('PassengerId,Survived'+"\n")
 for index, row in test_df.iterrows():
-    f.write (str(row['PassengerId']) + "," + str(output[index]) +"\n")
+    f.write (str(row['PassengerId']) + "," + str(y_pred[index]) +"\n")
 
 
 
