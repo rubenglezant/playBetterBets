@@ -1,3 +1,5 @@
+from scipy.stats._discrete_distns import poisson_gen
+
 __author__ = 'ruben'
 
 import smtplib
@@ -60,6 +62,76 @@ for indice in lista_indices:
     else:
         print "NO Sube " + indice
         enviaMail("NO Sube " + indice)
+
+print ""
+# Valoracion de las inversiones realizadas
+indice = "GAM.MC"
+fechaInversion = '2016-03-31'
+start = datetime.datetime(2016, 03, 31)
+
+end = datetime.datetime(2016, ahora.month, ahora.day)
+f = web.DataReader(indice, 'yahoo', start, end)
+f = (f["High"])
+ValorInversion = f.ix[fechaInversion]
+porcentajeMax = -1;
+print "Estas invirtiendo en " + indice + " a " + str(ValorInversion) + " en fecha " + fechaInversion
+print ""
+for date, row in f.T.iteritems():
+   valorAct = row
+   porcentaje = (valorAct - ValorInversion)/ValorInversion;
+   print date,row, porcentaje
+   if (porcentaje>porcentajeMax):
+       porcentajeMax = porcentaje;
+
+print ""
+print "Mejor rentabilidad " + indice + " es " + str(porcentajeMax)
+print "-----------------------------------------------------------"
+
+# Valoracion de las inversiones realizadas
+indice = "AENA.MC"
+fechaInversion = '2016-04-06'
+start = datetime.datetime(2016, 04, 06)
+
+end = datetime.datetime(2016, ahora.month, ahora.day)
+f = web.DataReader(indice, 'yahoo', start, end)
+f = (f["High"])
+ValorInversion = f.ix[fechaInversion]
+porcentajeMax = -1;
+print "Estas invirtiendo en " + indice + " a " + str(ValorInversion) + " en fecha " + fechaInversion
+print ""
+for date, row in f.T.iteritems():
+   valorAct = row
+   porcentaje = (valorAct - ValorInversion)/ValorInversion;
+   print date,row, porcentaje
+   if (porcentaje>porcentajeMax):
+       porcentajeMax = porcentaje;
+
+print ""
+print "Mejor rentabilidad " + indice + " es " + str(porcentajeMax)
+print "-----------------------------------------------------------"
+
+# Valoracion de las inversiones realizadas
+indice = "BKT.MC"
+fechaInversion = '2016-04-15'
+start = datetime.datetime(2016, 04, 15)
+
+end = datetime.datetime(2016, ahora.month, ahora.day)
+f = web.DataReader(indice, 'yahoo', start, end)
+f = (f["High"])
+ValorInversion = f.ix[fechaInversion]
+porcentajeMax = -1;
+print "Estas invirtiendo en " + indice + " a " + str(ValorInversion) + " en fecha " + fechaInversion
+print ""
+for date, row in f.T.iteritems():
+   valorAct = row
+   porcentaje = (valorAct - ValorInversion)/ValorInversion;
+   print date,row, porcentaje
+   if (porcentaje>porcentajeMax):
+       porcentajeMax = porcentaje;
+
+print ""
+print "Mejor rentabilidad " + indice + " es " + str(porcentajeMax)
+print "-----------------------------------------------------------"
 
 
 
