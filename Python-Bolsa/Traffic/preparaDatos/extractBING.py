@@ -16,6 +16,7 @@ print ("Dia,Hora,ValorMedio,Indice,Valor")
 horaAnterior = 0
 valorMedio = 0
 indiceMedio = 0
+npValores = []
 for index, row in df.iterrows():
     fechahora = row['Fecha Hora']
     dia = (int)((fechahora-5000000)/10000)
@@ -25,12 +26,16 @@ for index, row in df.iterrows():
     if (hora == horaAnterior):
         valorMedio = valor + valorMedio;
         indiceMedio = indiceMedio + 1
+        npValores.append(valor)
     else:
         valor = 0
         if (indiceMedio>0):
-            valor = valorMedio/indiceMedio;
+            valor = np.sum(npValores)
         print (str(dia) + "," + str(hora) + "," + str(valorMedio)+ "," + str(indiceMedio)+ "," + str(valor))
         horaAnterior = hora;
+        indiceMedio = 0;
+        valorMedio = 0;
+        npValores = [];
 
 
 

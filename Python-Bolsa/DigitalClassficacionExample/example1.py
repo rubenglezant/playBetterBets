@@ -13,6 +13,7 @@ n_samples = len(X_digits)
 porcentaje_samples = .55
 
 X_train = X_digits[:porcentaje_samples * n_samples]
+
 y_train = y_digits[:porcentaje_samples * n_samples]
 X_test = X_digits[porcentaje_samples * n_samples:]
 y_test = y_digits[porcentaje_samples * n_samples:]
@@ -20,7 +21,8 @@ y_test = y_digits[porcentaje_samples * n_samples:]
 knn = neighbors.KNeighborsClassifier()
 logistic = linear_model.LogisticRegression()
 
-print(digits)
+print(X_train.shape)
+print(y_train.shape)
 print('Num Samples: %d' % n_samples)
 print('Porcentaje Samples: %f' % porcentaje_samples)
 print('KNN score: %f' % knn.fit(X_train, y_train).score(X_test, y_test))
