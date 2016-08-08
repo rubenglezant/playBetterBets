@@ -6,9 +6,10 @@ import datetime
 def crearMatriz(indice):
 	f = pd.read_csv("./data/"+indice+".csv")
 
+	print ("-------> Tratando el valor del INDICE -> "+indice)
 	print (f[:2])
 
-	r = f[['Open']]
+	r = f[['High']]
 
 	filasColumnas = r.index.max() + 1
 	matrizPorcentajes = np.empty([filasColumnas,filasColumnas],dtype='double')
@@ -21,7 +22,10 @@ def crearMatriz(indice):
 			else:
 				matrizPorcentajes[i,j] = ((r.ix[j]-valorEstudiado)/valorEstudiado)
 
-	np.savetxt("./data/"+indice+'-matriz_porcentajes.dat', matrizPorcentajes, fmt='%.4e')
+	np.savetxt("./data/"+indice+'-matriz_porcentajes.dat', matrizPorcentajes, fmt='%.10e')
 
-
-crearMatriz("GAM.MC")
+# MAIN
+with open("indices.txt") as f:
+    for line in f:
+        indice = line.split()[0]
+        crearMatriz(indice)

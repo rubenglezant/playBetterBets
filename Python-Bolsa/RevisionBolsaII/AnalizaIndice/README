@@ -1,0 +1,20 @@
+Valoracion estadistica de los indices de la bolsa
+
+---------------------------------------------------------------------------------------------------------------
+1. Obtener los datos de Yahoo - getDataYahoo
+---------------------------------------------------------------------------------------------------------------
+Para cada indice en indices.txt se toman los datos:
+- Fecha inicio
+- Fecha Fin
+
+Se crea un fichero: CSV con los valores
+
+---------------------------------------------------------------------------------------------------------------
+2. Crear Matriz - crearMatriz
+---------------------------------------------------------------------------------------------------------------
+La matriz tiene en las filas y columnas la fecha
+Para una fecha, en la fila, va indicando la evolución a lo largo del tiempo. EN PORCENTAJE
+Se establece como valor el valor de APERTURA
+
+
+

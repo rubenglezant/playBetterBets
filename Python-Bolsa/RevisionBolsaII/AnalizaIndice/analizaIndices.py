@@ -98,7 +98,7 @@ def calculaInd3(indice):
 def calculaInd4(indice):
     porcentajeGanar = 0.05
 
-    A = np.loadtxt(indice+'-matriz_porcentajes.dat')
+    A = np.loadtxt("./data/"+indice+'-matriz_porcentajes.dat')
 
     try:
         ListaValores = []
