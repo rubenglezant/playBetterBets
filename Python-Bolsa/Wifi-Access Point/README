@@ -1,0 +1,122 @@
+La idea es crear un punto Wifi en Ubuntu
+
+---------------------------------------------------------------------------------------------------------------
+1. Crear el HOTSPOT
+---------------------------------------------------------------------------------------------------------------
+Leer README en https://github.com/prahladyeri/hotspotd
+
+To start hotspot:
+sudo hotspotd start
+
+To stop hotspot:
+sudo hotspotd stop
+
+
+---------------------------------------------------------------------------------------------------------------
+2. Sniffar los paquetes de la WLAN
+---------------------------------------------------------------------------------------------------------------
+
+Usando WireShark en Monitor Mode de WLAN0 se pueden obtener los intentos de conexion aunque el terminal no llegue a conectarse a la red
+Ejemplo:
+2	2.303365000	Motorola_c8:b7:e4	Broadcast	802.11	116	Probe Request, SN=331, FN=0, Flags=........C, SSID=JAZZTEL_B20F
+66	413.315647000	Motorola_c8:b7:e4	Broadcast	802.11	116	Probe Request, SN=852, FN=0, Flags=........C, SSID=Broadcast
+
+--> Command Line
+ifconfig wlan0 down
+iwconfig wlan0 mode monitor
+iwconfig wlan0 channel 6
+ifconfig wlan0 up
+
+- Ejemplo
+mac="11:22:33:44:55:66"
+tshark -i wlan0 -T fields -e frame.time_relative -e wlan.sa -e wlan.da -e radiotap.datarate -e wlan_mgt.ssid -e wlan \
+    -R "wlan.ra == $mac || wlan.sa == $mac || wlan.ta == $mac || wlan.da == $mac"
+
+- Ejecutado en real
+root@rubenpc:~# tshark -i wlan0 -T fields -e frame.time_relative -e wlan.sa -e wlan.da -e radiotap.datarate -e wlan_mgt.ssid -e radiotap.vendor_data -e radiotap.vendor_namespace -e radiotap.vendor_oui -e radiotap.txpower
+tshark: Lua: Error during loading:
+ [string "/usr/share/wireshark/init.lua"]:46: dofile has been disabled due to running Wireshark as superuser. See http://wiki.wireshark.org/CaptureSetup/CapturePrivileges for help in running Wireshark as an unprivileged user.
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan0'
+0.000000000
+5.120438000	cc:c3:ea:c8:b7:e4	ff:ff:ff:ff:ff:ff	1
+5.122192000	cc:c3:ea:c8:b7:e4	ff:ff:ff:ff:ff:ff	1
+5.140565000	cc:c3:ea:c8:b7:e4	ff:ff:ff:ff:ff:ff	1
+5.141904000	cc:c3:ea:c8:b7:e4	ff:ff:ff:ff:ff:ff	1
+15.137563000	cc:c3:ea:c8:b7:e4	ff:ff:ff:ff:ff:ff	1
+15.142450000	cc:c3:ea:c8:b7:e4	ff:ff:ff:ff:ff:ff	1
+19.295999000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1	Ruben-Wifi
+19.296949000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1
+19.325211000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1	Ruben-Wifi
+19.326261000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1
+19.364989000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1	Ruben-Wifi
+19.365974000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1
+20.314547000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1	Ruben-Wifi
+25.148715000	cc:c3:ea:c8:b7:e4	ff:ff:ff:ff:ff:ff	1
+25.152522000	cc:c3:ea:c8:b7:e4	ff:ff:ff:ff:ff:ff	1
+25.173835000	cc:c3:ea:c8:b7:e4	ff:ff:ff:ff:ff:ff	1
+25.182857000	cc:c3:ea:c8:b7:e4	ff:ff:ff:ff:ff:ff	1
+28.613978000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1	Ruben-Wifi
+28.614991000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1
+28.635830000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1	Ruben-Wifi
+28.636817000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1
+28.765784000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1	Ruben-Wifi
+28.766803000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1
+35.161737000	cc:c3:ea:c8:b7:e4	ff:ff:ff:ff:ff:ff	1
+35.162718000	cc:c3:ea:c8:b7:e4	ff:ff:ff:ff:ff:ff	1
+36.618526000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1	Ruben-Wifi
+36.619482000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1
+36.645889000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1	Ruben-Wifi
+36.646777000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1
+36.715973000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1
+36.746119000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1	Ruben-Wifi
+36.747042000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1
+36.845089000	cc:c3:ea:c8:b7:e4	ff:ff:ff:ff:ff:ff	1	JAZZTEL_B20F
+36.865024000	cc:c3:ea:c8:b7:e4	ff:ff:ff:ff:ff:ff	1	JAZZTEL_B20F
+36.893697000	cc:c3:ea:c8:b7:e4	ff:ff:ff:ff:ff:ff	1	JAZZTEL_B20F
+47.219831000
+47.219867000
+47.697440000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1	Ruben-Wifi
+47.698359000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1
+47.725628000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1	Ruben-Wifi
+47.726615000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1
+47.764509000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1	Ruben-Wifi
+47.785599000	80:4e:81:63:34:2f	ff:ff:ff:ff:ff:ff	1	Ruben-Wifi
+^C44 packets captured
+root@rubenpc:~#
+
+URL OPCIONES: https://www.wireshark.org/docs/dfref/r/radiotap.html
+
+---------------------------------------------------------------------------------------------------------------
+3. Desarrollar un monitor
+---------------------------------------------------------------------------------------------------------------
+3.1. Script que recoja los datos cada hora
+ -> Poder "matar" el proceso cada hora
+ -> Generar un fichero con formato donde se indique la hora de arranque en el nombre
+
+3.2. Enviar por correo los ficheros. Quizá una vez al día.
+ -> Usaremos el correo como "base de datos"...
+
+
+---------------------------------------------------------------------------------------------------------------
+4. Algunos comandos
+---------------------------------------------------------------------------------------------------------------
+-> Recoger las diferentes MACs que se han registrado
+cat captura.txt | awk {'print $2'} | sort | uniq
+
+---------------------------------------------------------------------------------------------------------------
+5. Instalando en la RPi
+---------------------------------------------------------------------------------------------------------------
+1. Tarjeta barata: https://www.amazon.es/s/?ie=UTF8&keywords=mini+ralink+rt5370&tag=hydes-21&index=aps&hvadid=37829393843&hvpos=1t1&hvexid=&hvnetw=g&hvrand=859680286025132724&hvpone=&hvptwo=&hvqmt=b&hvdev=c&ref=pd_sl_1tfzvixqzo_b
+2. Documentos de Interes:
+http://elinux.org/RPI-Wireless-Hotspot
+https://cdn-learn.adafruit.com/downloads/pdf/setting-up-a-raspberry-pi-as-a-wifi-access-point.pdf
+
+---------------------------------------------------------------------------------------------------------------
+6. Comprobar la cobertura Wifi con en Android
+---------------------------------------------------------------------------------------------------------------
+https://play.google.com/store/apps/details?id=com.farproc.wifi.analyzer
+https://play.google.com/store/apps/details?id=cz.webprovider.wifianalyzer
+https://play.google.com/store/apps/details?id=org.walksinthecountry.mywifi
+https://play.google.com/store/apps/details?id=com.gyokovsolutions.gnetwifi
+
