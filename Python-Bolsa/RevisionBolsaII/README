@@ -1,0 +1,15 @@
+Prueba de invesión en Bolsa
+
+- Objetivo
+    - 7%
+    - 2 meses
+
+- Criterio
+    1 - Sube 3 VECES en BOLSA
+
+
+3. Valorar Indice
+    Trabaja sobre el vector de TEST
+    Se toman los 2 últimos meses
+    Permite verificar que se cumple
+
