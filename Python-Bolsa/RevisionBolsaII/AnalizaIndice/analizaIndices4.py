@@ -46,6 +46,7 @@ def valoraInversion(indice,porcentajeGanar, fechaInicio, fechaFin, criterio, pre
 
     # Valoracion de Resultado
     print("Porcentaje: " + str(porcentajeGanar));
+    ganado = 0
     for i in range(diaCompra,filasColumnas):
         valorEstudiado = matrizIndice[i]
         porcentaje = 1 - (precioCompraIndice/valorEstudiado)
@@ -53,16 +54,15 @@ def valoraInversion(indice,porcentajeGanar, fechaInicio, fechaFin, criterio, pre
             print ("Porcentaje Venta: "+str(porcentaje));
             print ("Precio Venta: "+str(valorEstudiado));
             print ("GANAS: SI! en dia "+str(i));
+            ganado = ganado + 1
 
-            # Escribimos los resultados
-            s = "" + indice +"|" + fechaInicio +"|" + fechaFin +"|" + str(porcentajeGanar) +"|" + str(diaCompra) +"|" + str(precioCompraIndice) +"|" + str(porcentaje) +"|" + str(valorEstudiado) +"|" + str(i)
-            with open("resultados.txt", "a") as myfile:
-                myfile.write(s+"\n")
-
-            break;
+    # Escribimos los resultados
+    s = "" + indice +"|" + fechaInicio +"|" + fechaFin +"|" + str(porcentajeGanar) +"|" + str(diaCompra) +"|" + str(precioCompraIndice) +"|" + str(porcentaje) +"|" + str(valorEstudiado) +"|" + str(i) +"|" + str(ganado)
+    with open("resultados.txt", "a") as myfile:
+        myfile.write(s+"\n")
 
 # Main
 with open("indices.txt") as f:
     for line in f:
         indice = line.split()[0]
-        valoraInversion(indice,0.07,"01/06/2016","01/09/2016",1,0)
+        valoraInversion(indice,0.07,"01/07/2016","01/09/2016",1,0)
