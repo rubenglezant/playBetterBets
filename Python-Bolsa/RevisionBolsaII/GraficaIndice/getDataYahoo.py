@@ -8,7 +8,7 @@ import pandas as pd
 
 #Parametros
 accederWeb = True
-indice = "GAM.MC"
+indice = "IDR.MC"
 
 # Recogemos el valor de los datos de Web
 if (accederWeb):
